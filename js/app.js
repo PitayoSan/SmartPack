@@ -3,7 +3,7 @@ $(document).foundation()
 //Sign in form
 $(function () {
     var showClass = 'show';
-  
+
     $('input').on('checkval', function () {
       var label = $(this).prev('label');
       if(this.value !== '') {
@@ -15,5 +15,5 @@ $(function () {
       $(this).trigger('checkval');
     });
   });
-  
+
   
